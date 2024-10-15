@@ -5,7 +5,7 @@ Julia ecosystem for Spiking Neural Network simulation and analysis.
 The packages are being defined and may present some inconsisencies. 
 
 
-## SpikingNeuralNetwork.jl
+### SpikingNeuralNetwork.jl
 
 Main package of the ecosystem, it defines: 
 
@@ -13,7 +13,7 @@ Main package of the ecosystem, it defines:
 - the routine for simulating and recording the models;
 - the models implementated in `src/neurons` and `src/synapses`.
 
-## SNNUtils
+### SNNUtils
 
 It contains tools used to run complex simulations: 
 
@@ -22,7 +22,7 @@ It contains tools used to run complex simulations:
 - `src/models`: parameters associated to publications (`<: AbstractParameter`).
 - `src/analysis`: spike processing;
 
-## Examples
+### SNNExamples
 
 Collection of realistic simulation examples from published studies.
 
