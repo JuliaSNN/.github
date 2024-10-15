@@ -26,10 +26,13 @@ It contains tools used to run complex simulations:
 
 Collection of realistic simulation examples from published studies.
 
-## SNNPlots
 
-WIP
+## WIP
 
-## SNNGeometry
+### SNNPlots
 
-WIP
+Package with recipes for visualization, preferably in Makie 
+
+### SNNGeometry
+
+Package to generate Connections and Populations from geometrical parameters (density, layers, size... etc...)
