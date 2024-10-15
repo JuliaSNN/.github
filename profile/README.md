@@ -2,8 +2,23 @@
 
 Julia ecosystem for Spiking Neural Network simulation and analysis.
 
-The packages are being defined and may present some inconsisencies. 
+## Usage
 
+The packages are not available in the Julia's repository yet, for the moment you have to download the modules separatedly.
+We suggest to:
+
+`git clone https://github.com/JuliaSNN/SNNExamples`
+
+``` julia
+] add https://github.com/JuliaSNN/SpikingNeuralNetworks
+] add https://github.com/JuliaSNN/SNNUtils
+
+using SpikingNeuralNetworks
+using SNNUtils
+```
+
+
+## Ecosystem structure
 
 ### SpikingNeuralNetwork.jl
 
